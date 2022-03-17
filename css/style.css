@@ -86,58 +86,7 @@
 .botonera {
     padding-right: 10px;
 }
-/* GRID */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 3.8fr;
-    grid-template-areas: "producto0 producto0 producto0" 
-                         "producto1 producto2 producto3";
-    
-}
-.producto0 {
-    grid-area: producto0;    
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: black;
-    background: linear-gradient(to right, #000, #ccc);
-    color: #F2F2F2;  
-    padding-left: 50px;
-    padding-top: 10px;          
-}
-.producto0 h5 {
-    font-size: 40px;
-}
-.producto1 {
-    grid-area: producto1;   
-    border: solid rgb(109, 109, 124) 3px;
-}
-.card-title-individual {
-    font-size: 35px;
-    text-align: right;    
-    color: #012615;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
-}
-.producto2 {
-    grid-area: producto2;
-    border: solid rgb(109, 109, 124) 3px;    
-}
-.card-title-grupal {
-    font-size: 35px;
-    text-align: right;    
-    color: #012615;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.producto3 {
-    grid-area: producto3;
-    border: solid rgb(109, 109, 124) 3px;
-    
-}
-.card-title-online {
-    font-size: 35px;
-    text-align: right;    
-    color: #012615;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 /* FOOTER */
 .footer {
     background-color: black;

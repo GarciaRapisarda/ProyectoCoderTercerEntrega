@@ -1,3 +1,0 @@
-animation-name: slide-fwd-center;
-  animation-iteration-count: infinite;
-  animation-timing-function:ease-in-out;

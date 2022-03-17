@@ -4,6 +4,10 @@
   margin: 0;
   box-sizing: border-box; }
 
+.fondoContacto {
+  background-image: url(../images/fondo3.png);
+  background-repeat: repeat; }
+
 .footer-icon, .btn--instagram:hover, .btn--facebook:hover, .btn--whatsapp:hover, .btn--gmail:hover, .btn--twitter:hover {
   border-radius: 20px;
   font-size: 2rem;
@@ -28,7 +32,6 @@
 .btn--twitter:hover {
   border: solid #3098F2; }
 
-/* HEADER */
 .encabezado {
   display: flex;
   justify-content: end;
@@ -42,7 +45,6 @@
     font-size: 10vh;
     color: #FFC745; }
 
-/* NAV */
 .navbar {
   background-color: wheat; }
   .navbar .nav-link {
@@ -51,7 +53,6 @@
     font-weight: 800;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
-/* MAIN */
 .portada {
   background-color: white; }
   .portada .card-title {
@@ -78,29 +79,14 @@
   font-size: 40px;
   border: solid #012615;
   animation-duration: 2s;
-  -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+  animation-name: movimiento;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
   .btn.btn-lg.btn-primary.btn-secondary a {
     text-decoration: none;
     color: #012615;
     font-family: 'Alegreya', serif;
     font-weight: 700; }
-
-@-webkit-keyframes slide-fwd-center {
-  0% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
-  100% {
-    -webkit-transform: translateZ(160px);
-    transform: translateZ(160px); } }
-
-@keyframes slide-fwd-center {
-  0% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0); }
-  100% {
-    -webkit-transform: translateZ(160px);
-    transform: translateZ(160px); } }
 
 @keyframes movimiento {
   0% {
@@ -122,7 +108,6 @@
     justify-content: space-around;
     align-items: center; }
 
-/* FOOTER */
 .footer {
   background-color: black; }
   .footer .derechos.col-md-6 {
@@ -150,7 +135,6 @@
   .pie .pie-link {
     text-decoration: none; }
 
-/* MOBILE */
 @media screen and (max-width: 992px) {
   .portada .card-title {
     font-size: 40px; }
