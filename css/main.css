@@ -1,0 +1,188 @@
+/* VARIABLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.footer-icon, .btn--instagram:hover, .btn--facebook:hover, .btn--whatsapp:hover, .btn--gmail:hover, .btn--twitter:hover {
+  border-radius: 20px;
+  font-size: 2rem;
+  background-color: antiquewhite; }
+
+.estilo {
+  font-family: Alegreya;
+  font-size: 1.5rem; }
+
+.btn--instagram:hover {
+  border: solid #F20530; }
+
+.btn--facebook:hover {
+  border: solid #056CF2; }
+
+.btn--whatsapp:hover {
+  border: solid #29D967; }
+
+.btn--gmail:hover {
+  border: solid #F23838; }
+
+.btn--twitter:hover {
+  border: solid #3098F2; }
+
+/* HEADER */
+.encabezado {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: black;
+  padding-right: 30px; }
+  .encabezado .header h2 {
+    word-spacing: 2vh;
+    letter-spacing: -0.5vh;
+    font-family: 'Alegreya', serif;
+    font-size: 10vh;
+    color: #FFC745; }
+
+/* NAV */
+.navbar {
+  background-color: wheat; }
+  .navbar .nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+/* MAIN */
+.portada {
+  background-color: white; }
+  .portada .card-title {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Alegreya', serif;
+    color: #012615;
+    text-align: right;
+    margin-top: 7px; }
+
+.card-text {
+  font-size: 5vh;
+  margin-top: 15px;
+  padding-top: 20px;
+  color: #012615;
+  text-align: right; }
+
+.botonreserva {
+  display: flex;
+  justify-content: end;
+  padding-top: 30px; }
+
+.btn.btn-lg.btn-primary.btn-secondary {
+  font-size: 40px;
+  border: solid #012615;
+  animation-duration: 2s;
+  -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+  .btn.btn-lg.btn-primary.btn-secondary a {
+    text-decoration: none;
+    color: #012615;
+    font-family: 'Alegreya', serif;
+    font-weight: 700; }
+
+@-webkit-keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px); } }
+
+@keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px); } }
+
+@keyframes movimiento {
+  0% {
+    width: 200px;
+    height: 80px; }
+  100% {
+    width: 300px;
+    height: 100px; } }
+
+.contenedorListaVideo {
+  display: flex;
+  border: solid black;
+  width: auto; }
+  .contenedorListaVideo .listaVideo {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center; }
+
+/* FOOTER */
+.footer {
+  background-color: black; }
+  .footer .derechos.col-md-6 {
+    color: antiquewhite;
+    padding-left: 30px;
+    padding-top: 20px; }
+    .footer .derechos.col-md-6 p {
+      margin-top: 10px;
+      font-size: 15px; }
+
+.redes {
+  list-style: none;
+  display: flex;
+  padding-top: 20px;
+  padding-right: 20px;
+  justify-content: space-between; }
+
+.pie {
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 30px; }
+  .pie p {
+    color: antiquewhite;
+    font-size: 15px; }
+  .pie .pie-link {
+    text-decoration: none; }
+
+/* MOBILE */
+@media screen and (max-width: 992px) {
+  .portada .card-title {
+    font-size: 40px; }
+  .card-text {
+    font-size: 30px; }
+  .btn.btn-lg.btn-primary.btn-secondary {
+    font-size: 30px;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; }
+  @keyframes movimiento {
+    0% {
+      width: 150px;
+      height: 60px; }
+    100% {
+      width: 180px;
+      height: 80px; } } }
+
+@media screen and (max-width: 768px) {
+  .portada .card-title {
+    font-size: 30px; }
+  .card-text {
+    font-size: 20px; }
+  .btn.btn-lg.btn-primary.btn-secondary {
+    font-size: 20px;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; }
+  @keyframes movimiento {
+    0% {
+      width: 110px;
+      height: 50px; }
+    100% {
+      width: 150px;
+      height: 50px; } } }

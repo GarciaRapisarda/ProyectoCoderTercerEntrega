@@ -1,0 +1,31 @@
+.footer {
+    background-color: black; 
+    .derechos.col-md-6 {
+        color:antiquewhite;
+        padding-left: 30px;
+        padding-top: 20px;
+        p {
+            margin-top: 10px;
+            font-size: 15px;            
+        }
+    }
+}
+.redes {
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+    justify-content: space-between;   
+}
+.pie {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+    p {
+        color: antiquewhite;
+        font-size: 15px;  
+    }
+    .pie-link {
+        text-decoration: none;
+    }
+}

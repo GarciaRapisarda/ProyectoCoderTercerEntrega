@@ -1,0 +1,14 @@
+.contenedorListaVideo { 
+    display: flex;
+    border: solid black;
+    width: auto;
+    
+    .listaVideo {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
