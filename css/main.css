@@ -100,10 +100,12 @@
   transform: scale(0.9);
   transition: transform 2s; }
 
-.card {
+.cardAlumnos {
   box-shadow: 8px 8px 10px 0; }
-  .card:hover {
+  .cardAlumnos:hover {
     filter: grayscale(80%); }
+  .cardAlumnos .card-img-top {
+    border-radius: 50%; }
 
 .contenedorListaVideo {
   display: flex;
